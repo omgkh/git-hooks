@@ -1,6 +1,6 @@
 #!/bin/sh
 gradle test
-if [$? = 0]
+if [ "$?" = "0" ]
 then
 	exit 0
 fi
